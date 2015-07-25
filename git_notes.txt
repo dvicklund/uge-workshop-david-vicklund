@@ -28,5 +28,6 @@ Git Commands and such
   git log = shows log of changes made to the repository
     can be displayed in a variety of ways
   git branch "new branch name"= creates a new branch for your repo
-    - git branch (with no name) shows active branch with an asterisk before itd
+    - git branch (with no name) shows active branch with an asterisk before it
+  git push = sends changes from local repository to a remote
 
