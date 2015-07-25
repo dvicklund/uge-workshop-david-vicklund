@@ -3,7 +3,7 @@ Git
   Each point has a unique hash
   A "branch" is a label that points to a specific point in time
   "Master" branch is the main, present version of your project
-
+    +Separation of the master branch from testing branches keeps bugs from being introduced into the main version of the project
   -to destroy a local repository, delete the hidden .git folder
 
 
