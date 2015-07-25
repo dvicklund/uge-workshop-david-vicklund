@@ -68,6 +68,7 @@ Commands:
     cd ~ = go directly to the home directory
       Alternatively: "~" does the same thing
   ls = list files
+    -a = shows ALL files (including hidden)
     -t = sort by modification time
     -l = long list (extra info)
     -r = reverse ordering
@@ -85,6 +86,32 @@ Unix Naming Conventions
     OSX and Windows are case insensitive, so foo.jpg and FOO.JPG are the same
     Linux, however, is case sensitive
     Prefer lower-case letters when naming files
+
+Protect Files
+  GitHub will store your stuff on the cloud
+
+Git Stuff
+  to destroy a local repository, delete the hidden .git folder
+
+Git Workflow:
+  1. modify/create a file
+  2. add (stage) the file
+  3. commit the change - snapshot of that file at that point in time is saved
+    -until you commit, nothing is permanent
+
+Git Commands and such
+  git init = initialize a new repository in the working directory
+  git status = shows information about the current state of your repository - use it to see which files need to be added and which have been changed and are awaiting commits
+  git commit = commits the change
+    -m = adds a message in quotations -- 'git commit -m "message or comments here"'
+      if you do not use the -m flag, it will open a text editor to add your comment
+    each commit saves:
+      -the changes made to each file on the stage
+      -the identity of the person who made the changes
+      -date and time of change
+      -brief message about nature of changes
+      -universally unique id for the changes
+  git log = shows log of changes made to the repository
 
 
 
