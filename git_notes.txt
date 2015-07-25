@@ -2,11 +2,11 @@ Git
   A git repository is a collection of points in time with history showing where you've been
   Each point has a unique hash
   A "branch" is a label that points to a specific point in time
-  "MASTER" branch is the main, present version of your project
+  "Master" branch is the main, present version of your project
+    +Separation of the master branch from testing branches keeps bugs from being introduced into the main version of the project
   -to destroy a local repository, delete the hidden .git folder
-  "HEAD" is always the same as "where are you now"
-  Git is a distributed versioning system, there is no central repository
-  Instead, local repositories and remotes
+  -After pushing, developers make pull requests when they have completed their work.
+  -a pull request lets the manager of the project know that work is ready to be reviewed
 
 Git Workflow:
   1. modify/create a file
@@ -29,5 +29,6 @@ Git Commands and such
   git log = shows log of changes made to the repository
     can be displayed in a variety of ways
   git branch "new branch name"= creates a new branch for your repo
-    - git branch (with no name) shows active branch with an asterisk before itd
+    - git branch (with no name) shows active branch with an asterisk before it
+  git push = sends changes from local repository to a remote
 
