@@ -21,6 +21,7 @@ Git Workflow:
 Git Commands and such
   git init = initialize a new repository in the working directory (use only once)
   git status = shows information about the current state of your repository - use it to see which files need to be added and which have been changed and are awaiting commits
+  git add = adds files to the staging area
   git commit = commits the change
     -m = adds a message in quotations -- 'git commit -m "message or comments here"'
       if you do not use the -m flag, it will open a text editor to add your comment
@@ -35,4 +36,8 @@ Git Commands and such
   git branch "new branch name"= creates a new branch for your repo
     - git branch (with no name) shows active branch with an asterisk before it
   git push = sends changes from local repository to a remote
+  git pull = rolls two commands into one step
+    -fetches changes
+    -merges branches
+
 
