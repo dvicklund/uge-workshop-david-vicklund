@@ -5,8 +5,12 @@ Git
   "Master" branch is the main, present version of your project
     +Separation of the master branch from testing branches keeps bugs from being introduced into the main version of the project
   -to destroy a local repository, delete the hidden .git folder
+<<<<<<< HEAD
   -After pushing, developers make pull requests when they have completed their work.
   -a pull request lets the manager of the project know that work is ready to be reviewed
+=======
+
+>>>>>>> 8993ca04a61b9cf9dc772068272f69a79203c9c3
 
 Git Workflow:
   1. modify/create a file
