@@ -39,5 +39,6 @@ Git Commands and such
   git pull = rolls two commands into one step
     -fetches changes
     -merges branches
+    austinbrovick edits
 
 
