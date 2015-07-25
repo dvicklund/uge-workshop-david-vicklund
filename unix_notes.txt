@@ -2,9 +2,6 @@
 #David Vicklund
 #25 July 2015
 
-Instructors:
-  Alex
-  Kevin
 
 1 unix command line
 2 git workflow
